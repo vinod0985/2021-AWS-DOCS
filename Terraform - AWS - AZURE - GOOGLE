@@ -308,6 +308,8 @@ terraform workspace delete -force  $$$$$$ mention deirectory and other options t
 IF ANY THING CHANGED THEN IT WILL TERMINATE THE THIINGS AND RE CREATE IT 
 for ex change the user data with something and then terraform apply and see what happens 
 
+terraform init -verify-plugins=false
+
 
 
 
